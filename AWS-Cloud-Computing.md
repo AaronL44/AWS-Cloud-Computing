@@ -32,24 +32,45 @@
   - Focused on cost efficiency
 
 ## Four Cloud Deployment Models
-
+1. **Public Cloud** = Shared infrastructure (AWS, Azure, GCP).
+2. **Private Cloud** = Dedicated infrastructure for one organization.
+3. **Hybrid Cloud** = Mix of private & public cloud.
+4. **Multi-Cloud** = Using multiple cloud providers.
 
 ## Three Main Cloud Service Models
-
+1. **IaaS (Infrastructure as a Service)** = Virtual machines, networking (AWS EC2, Azure VM).
+2. **PaaS (Platform as a Service)** = Managed development environments (Google App Engine)
+3. **SaaS (Software as a Service)** = Fully managed software (Google Workspace, Dropbox).
 
 ## Main Advantages of Cloud Computing
- 
+- [x] **Scalability** = Grow/shrink resources as needed.
+- [x] **Cost-Effective** = Pay-as-you-go pricing.
+- [x] **Reliability** = Backups & disaster recovery.
+- [x] **Security** = Advanced encryption & compliance.
 
 ## Disadvantages of the Cloud
-
+- Dependency on Internet, no internet = no access.
+- Security & Compliance Risks
+- Hidden Costs = Data transfer & storage fees add up.
 
 ## Market Share: Biggest Cloud Providers (2024)
-
+- **AWS** 32% = Leader, broadest services.
+- **Azure** 23% =  Strong enterprise focus.
+- **Google Cloud** 11% = AI/ML, big data.
 
 ## Best Cloud Provider & What They’re Known For
-
+- **AWS** = Best for startupss, scalability, and variety.
+- **Azure** = Best for enterprise & microsoft integrations
+- **GCP** = Best for AI, machine learning and big data.
 
 ## What Do You Pay for in the Cloud?
-
+- Compute (VMs, containers, functions).
+-  Storage (object, block, databases).
+-  Networking (data transfer, load balancers).
+-  Managed Services (AI, security, monitoring).
 
 ## Four Pillars of DevOps & Their Cloud Link
+1. **Collaboration** = Cloud enables shared environments & CI/CD.
+2. **Automation** = Infrastructure as Code (IaC) automates cloud setups.
+3. **Monitoring** = Cloud offers real-time observability tools.
+4. **Security** = Cloud-native security tools for compliance & protection.
