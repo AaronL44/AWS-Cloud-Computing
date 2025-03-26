@@ -3,11 +3,17 @@
 
 ## What is Cloud Computing?
 - **Cloud computing** is the delivery of computing services (servers, storage, databases, networking, software, etc.) over the internet ("the cloud") instead of using local on-premises infrastructure.
+- Pay as you go services.
 <p align="center">
 <img src="image.png" alt="Cloud Computing Diagram" width="300">
 </p>
 
 ## How to Identify On-Prem vs. Cloud?
+- **Identify simply:**
+  - Anything that is acessed through the internet.
+    - Example: Adobe creative = Cloud based programs (not downloading the programs like photoshop)
+  - Online storage:
+    - OneDrive, google drive - Cloud storage. 
 - **On premesis** = Managed on private physical servers/data centers.
 - **Cloud** = Hosted by a cloud provider, accessible over the internet.
 - **Hybrid** = Mix of both 
@@ -18,27 +24,41 @@
     - Business Continuity → Cloud backups improve disaster recovery & resilience.
 
 ## Popular Cloud Computing Services & Uses
-- **AWS** Best for Scalability & Versatility:
-  -  Great for startups, enterprises, and e-commerce (Shopify, Netflix).
-- **Azure** Best for Enterprises & Microsoft Integration:
-  - Ideal for corporations using Microsoft tools (Office 365, Windows Server).
-  - Best for hybrid cloud and government compliance.
-  - Strong in AI and enterprise security.
-- **Google Cloud** Best for AI & Big Data:
-  - Best for AI, machine learning, and big data analytics
-  - Preferred by tech startups and media companies (YouTube, Unity).
-  - Focused on cost efficiency
+- Google drive
+- DropBox
+- Netflix
+- The big 3:
+  - **AWS** Best for Scalability & Versatility:
+    -  Great for startups, enterprises, and e-commerce (Shopify, Netflix).
+  - **Azure** Best for Enterprises & Microsoft Integration:
+    - Ideal for corporations using Microsoft tools (Office 365, Windows Server).
+    - Best for hybrid cloud and government compliance.
+    - Strong in AI and enterprise security.
+  - **Google Cloud** Best for AI & Big Data:
+    - Best for AI, machine learning, and big data analytics
+    - Preferred by tech startups and media companies (YouTube, Unity).
+    - Focused on cost efficiency
 
 ## Four Cloud Deployment Models
 1. **Public Cloud** = Shared infrastructure (AWS, Azure, GCP).
 2. **Private Cloud** = Dedicated infrastructure for one organization.
+   - You are the sole tenant.
 3. **Hybrid Cloud** = Mix of private & public cloud.
+   - Example = Got a database running on a private cloud but you want some benefits of leveraging the public cloud provider.
 4. **Multi-Cloud** = Using multiple cloud providers.
+   - Why?
+     - Avoids Lock-in so you’re not stuck with one provider.
+     - Better Performance – Use the best services from different clouds.
+     - More Reliability – If one cloud goes down, others keep things running.
+     - Cost Savings – You can pick cheaper options across providers.
 
 ## Three Main Cloud Service Models
 1. **IaaS (Infrastructure as a Service)** = Virtual machines, networking (AWS EC2, Azure VM).
 2. **PaaS (Platform as a Service)** = Managed development environments (Google App Engine)
 3. **SaaS (Software as a Service)** = Fully managed software (Google Workspace, Dropbox).
+   - Further to the right in the image you go the less you have to manage yourself.
+![alt text](image-3.png)
+
 
 ## Main Advantages of Cloud Computing
 - [x] **Scalability** = Grow/shrink resources as needed.
