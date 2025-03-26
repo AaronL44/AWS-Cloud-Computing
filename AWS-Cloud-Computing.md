@@ -20,8 +20,6 @@
 ## Popular Cloud Computing Services & Uses
 - **AWS** Best for Scalability & Versatility:
   -  Great for startups, enterprises, and e-commerce (Shopify, Netflix).
-  - rong in Big Data, AI, and serverless computing.
-  - rgest global infrastructure for flexibility.
 - **Azure** Best for Enterprises & Microsoft Integration:
   - Ideal for corporations using Microsoft tools (Office 365, Windows Server).
   - Best for hybrid cloud and government compliance.
