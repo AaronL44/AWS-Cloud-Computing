@@ -53,15 +53,20 @@
      - Cost Savings – You can pick cheaper options across providers.
 
 ## Three Main Cloud Service Models
-1. **IaaS (Infrastructure as a Service)** = Virtual machines, networking (AWS EC2, Azure VM).
-2. **PaaS (Platform as a Service)** = Managed development environments (Google App Engine)
-3. **SaaS (Software as a Service)** = Fully managed software (Google Workspace, Dropbox).
+1. **IaaS (Infrastructure as a Service)** *"Renting an Empty House"* = Virtual machines, networking (AWS EC2, Azure VM).
+   - IaaS gives you the basic resources like virtual machines (computers), storage, and networking, but you need to set up and manage everything yourself.
+2. **PaaS (Platform as a Service)** *"Renting a Furnished House"* = Managed development environments (Google App Engine)
+   - PaaS gives you a platform where the major tools and environments are set up for you, but you still need some knowledge to build or manage your app.
+3. **SaaS (Software as a Service)** *"Staying at a Hotel"* = Fully managed software (Google Workspace, Dropbox).
+   - Everyting available out of the box. Don't need to know anything, just use it.
    - Further to the right in the image you go the less you have to manage yourself.
 ![alt text](image-3.png)
 
 
 ## Main Advantages of Cloud Computing
 - [x] **Scalability** = Grow/shrink resources as needed.
+  - Veticle = Making machine bigger or smaller 
+  - horizontal = Making more machines rather than making 1 bigger for example (More common).
 - [x] **Cost-Effective** = Pay-as-you-go pricing.
 - [x] **Reliability** = Backups & disaster recovery.
 - [x] **Security** = Advanced encryption & compliance.
@@ -72,10 +77,7 @@
 - Hidden Costs = Data transfer & storage fees add up.
 
 ## Market Share: Biggest Cloud Providers (2024)
-- **AWS** 32% = Leader, broadest services.
-- **Azure** 23% =  Strong enterprise focus.
-- **Google Cloud** 11% = AI/ML, big data.
-
+![Market Share in 2024](image-4.png)
 ## Best Cloud Provider & What They’re Known For
 - **AWS** = Best for startupss, scalability, and variety.
 - **Azure** = Best for enterprise & microsoft integrations
