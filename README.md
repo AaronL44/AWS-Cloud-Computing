@@ -94,3 +94,8 @@
 2. **Automation** = Infrastructure as Code (IaC) automates cloud setups.
 3. **Monitoring** = Cloud offers real-time observability tools.
 4. **Security** = Cloud-native security tools for compliance & protection.
+
+## AWS Regions vs Availability Zones?
+- Region = Location (London)
+- Availability Zone = Smaller data centers in that region which link up.
+  - This is done to ensure fallback or redundancy, meaning that if one goes down in a particular region, the others can take over and maintain operations.
