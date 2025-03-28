@@ -37,7 +37,7 @@ With a reverse proxy, you can hide the port number from the user. For example, y
 
 ## How do they work?
 ### Reverse Proxy:
-![Reverse Proxy Diagram](image.png)
+![Reverse Proxy Diagram](/AWS-Cloud-Computing/images/rp%20diagram.png)
 
 
 # Implementing a reverse proxy
