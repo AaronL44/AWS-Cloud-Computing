@@ -40,7 +40,9 @@ With a reverse proxy, you can hide the port number from the user. For example, y
 ![Reverse Proxy Diagram](image.png)
 
 
-# Manual step by step guide:
+# Implementing a reverse proxy
+
+## Manually
 
 - Launched the application using the automated script. 
 
@@ -57,7 +59,7 @@ With a reverse proxy, you can hide the port number from the user. For example, y
   - `sudo systemctl restart nginx`
 - The app now loads using the reverse proxy and therefore doesn't need the port number after the public ip address.
 
-# Automated Reverse Proxy Guide:
+# Automated 
 
 - Added the following to the app script:
 - `sudo sed -i '51c\proxy_pass http://0.0.0.0:3000;' /etc/nginx/sites-available/default`
