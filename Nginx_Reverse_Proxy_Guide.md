@@ -66,9 +66,10 @@ With a reverse proxy, you can hide the port number from the user. For example, y
 - Added the following to the app script:
 - `sudo sed -i '51c\proxy_pass http://0.0.0.0:3000;' /etc/nginx/sites-available/default`
 - Explaining the line of code:
-  - `sudo sed` performs basic text transformations on an input stream.
-  - `-i` means in-place editing. This tells sed to directly modify the file rather than just printing the changes to the terminal.
+  - `sudo sed` stands for stream editor - performs basic text transformations on an input stream.
+  - `-i` means edit in place. This tells sed to directly modify the file rather than just printing the changes to the terminal.
   - `51c` tells sed to change (with the c command) the line at line 51 in the file.
+  - `\` seperates the command.
   - `proxy_pass http://0.0.0.0:3000;` This is the text that will replace the entire contents of line 51. It sets up a reverse proxy for NGINX to forward requests to the application running on http://0.0.0.0:3000.
   - `/etc/nginx/sites-available/default` This is the path to the default site configuration file for NGINX.
 - Saved the changes and ran the script on a new instance which worked.
