@@ -8,7 +8,7 @@
 - Also used as a Reverse Proxy where it acts as a traffic light to distribute the load to multiple backend servers, while also providing security.
 
 ## What is a reverse proxy? 
-- A reverse proxy is essentially the middleman between users and your actual web server.
+- A reverse proxy is essentially the middleman between the internet and your actual web server.
   - Example:
     - A reverse proxy (like Nginx) takes a user’s request (e.g., opening a website).
     - It forwards the request to the correct backend server (e.g., a Node.js app or database).
@@ -50,7 +50,9 @@ With a reverse proxy, you can hide the port number from the user. For example, y
 
 - Found the config file for nginx. I used sudo before nano as this would allow me to save changes.
 - `sudo nano /etc/nginx/sites-available/default`
-- Navigated to "location" area in the config file.
+  - sudo = Used due to permission problems when editing config files.
+  - /etc = configuration files.
+- Navigated to "location" block in the config file.
 - location / {
     ``proxy_pass http://http://localhost:3000/``
         }
