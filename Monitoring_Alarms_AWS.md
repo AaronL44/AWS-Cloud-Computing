@@ -23,6 +23,7 @@ Step by step guide.
 - Next, create a new dashboard:
 
 ![Dahsboard Name](images\Dashboard-name.png)
+
   - Ensure you select "create" before adding to dashboard. This will create the dashboard itself before you add it.
 - Once you click "add to dashboard" you have successfully created the dashboard and added the enhanced monitoring to it.
 
@@ -36,11 +37,13 @@ Step by step guide.
   - EC2 & Per-Instance Metrics
 
 ![EC2-Per-Instance](images\EC2-PerInstancemetric.png)
+
 - Use the search bar to find your EC2 instance by instance ID or name.
 - Select the metric you want to monitor (e.g., CPUUtilization for CPU usage).
 - Click Select metric to proceed.
 
 ![EC2+Instance-chose](images\EC2+InstanceChosen.png)
+
 #### Define Alarm Conditions
 - Under Statistic, choose Average (default) or another option based on your needs.
 - Under Period, select how often CloudWatch should evaluate the metric (e.g., 1 minute for real-time monitoring).
@@ -51,6 +54,7 @@ Step by step guide.
 - Click next to continue.
 
 ![Specify metreic and conditions example](images\Metric&conditions.png)
+
 #### Set Alarm Actions
 - Under Notification, choose what happens when the alarm triggers:
   - Select Create a new notification (or use an existing one).
@@ -59,12 +63,14 @@ Step by step guide.
   - Enter sparta email address to receive alerts.
 
 ![topic-email](images\topic-emailselect.png)
+
   - Click "create topic" and "Next" to proceed.
   - Enter a name (e.g. tech503-aaron-app-alarm)
   - Click "Create Alarm"
   - You will receive an email to the email address supplied. CLick "confirm subscription" to accept the alarm.
 
 ![AWS-Confirmed](images\AWS-Confirmed.png)
+
 ### Testing the Alarm
 - Connect to the instance via SSH.
 - Run the following command to simulate high CPU usage for 1 minute: (or however long you select)
