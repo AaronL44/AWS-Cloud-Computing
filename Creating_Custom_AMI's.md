@@ -1,5 +1,8 @@
 # Creating A Custom AMI
-This guide covers what AMIs are, their benefits, and step-by-step instructions for creating and using them.  
+This guide covers what AMIs are, their benefits, and step-by-step instructions for creating and using them.
+
+![EC2-AMI](images/EC2-AMI-DIAGRAM.png)
+
 ## What is an image?
 - An Amazon Machine Image (AMI) is a pre-configured template that includes an operating system, software, configurations, and sometimes data (In my case my MongoDB instance "snapshot"). They allow you to quickly launch new EC2 instances with the same setup as your exisiting one.
 
