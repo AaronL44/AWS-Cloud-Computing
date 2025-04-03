@@ -56,10 +56,12 @@ sudo apt-get install -y nodejs`
   - `sudo apt-get install -y nodejs` Installs NodeJs from the repository added in the previous step.
 - `node -v`
   - Checks the version installed to verify.
+
 ![NodeJs-Version](images/NodeJs-Version.png)
 
 #### Downloading App Code
 - `cd Downloads`
+
 ![Sparta App code](images/Sparta-App-Code.png)
 - `sudo apt install unzip -y`
   - This installs unzip if you don't have it already.
