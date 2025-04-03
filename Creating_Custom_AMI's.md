@@ -55,3 +55,34 @@ This guide covers what AMIs are, their benefits, and step-by-step instructions f
 - Click "Create" to create the instance.
 - Again, this new instance should have MongoDB installed automatically due to the snapshot taken.
 
+#### Testing the Custom AMI Instance
+- In my case, the MongoDB contains the database the application uses after connecting to it.
+- Launch the application instance (which also uses port 27017).
+- Navigate to the application directory.
+- run the enviroment variable command: `export DB_HOST=mongodb://<Database IP Address>/posts`
+- How the enviroment variable works:
+  - The environment variable stores the database connection details (like the database's IP address, port, and credentials)
+  - The application instance then reads this variable to know how to connect to the database.
+  - This way, the application can securely access the database without hardcoding the connection details directly in the code.
+
+![Setting the enviroment variable](images/Env-Variable.png)
+
+- `printenv DB_HOST` Allows you to verify that the environment variable was set correctly.
+- `node seeds/seed.js` Populates the database with test data. How it does this: 
+  - It is commonly referred to as a "Seeding script".
+  - It connects to the database, often using an ORM like Mongoose (for MongoDB) or an SQL library.
+  - The script inserts the defined data into the appropriate collections or tables in the database.
+
+![Seeding](images/Seeding-script.png)
+
+- The seed was successful if it shows the "Database was seeded with 100 records"
+
+- `pm2 start app.js` Starts the app.
+
+![App Started](images/App-Started.png)
+
+- Lastly, check the app launched correctly and contains the test data (/posts) from the database. 
+
+![Testing the app](images/App-Test-Posts.png)
+
+- The app shows the test data in /posts which confirms it was successful.
